@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uni Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container container_header d-flex">
+      <a href="#" class="logo">UniDesign</a>
+      <nav>
+        <ul class="main-menu d-flex">
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#about">About Me</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#projects">Projects</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#contacts">Contacts</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#">Hire Me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="me" id="me">
+    <div class="container container_me d-flex">
+      <div class="info">
+        <p class="info__greeting">Welcome To My PortFolio</p>
+        <h2 class="info__header bold">
+          Hi , I am Steven <br />
+          UI/UX <span class="yellow">Designer</span>
+        </h2>
+        <p class="info__main">
+          Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
+          et, plateo erat est sed turpis hoc equit
+        </p>
+        <div class="info__buttons">
+          <button class="button button-hire">Hire Me</button>
+          <button class="button button-project">My Project</button>
+        </div>
+      </div>
+      <img src="images/me.png" alt="My photo" class="my-photo" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container container_about d-flex">
+      <div class="about__info">
+        <h2 class="about__header">About Me</h2>
+        <p class="about__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book. It has .
+        </p>
+        <button class="button button-hire">Hire Me</button>
+      </div>
+      <img src="images/about.png" alt="about me" class="about-image" />
+    </div>
+  </section>
+
+  <section class="my-projects" id="projects">
+    <div class="container container_my-projects">
+      <h2 class="my-projects__header ta-center">My Projects</h2>
+      <p class="my-projects__caption ta-center">
+        Lorem Ipsum is simply dummy text of the printing
+      </p>
+      <div class="projects">
+        <a href="#" class="project">
+          <img class="project__image" src="images/screen.jpg" alt="Project 1 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/car.jpg" alt="Project 2 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/screen.jpg" alt="Project 3 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/girl.jpg" alt="Project 4 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/girl.jpg" alt="Project 5 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/girl.jpg" alt="Project 6 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/sign.jpg" alt="Project 7 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/sign.jpg" alt="Project 8 image" />
+        </a>
+        <a href="#" class="project">
+          <img class="project__image" src="images/sign.jpg" alt="Project 9 image" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="contacts__header ta-center">Contact me</h2>
+      <p class="contacts__caption ta-center">
+        Lorem Ipsum is simply dummy text of the printing
+      </p>
+      <div class="container_contacts-form d-flex">
+        <form class="contacts__form" action="index.php">
+          <input type="email" class="contacts__input" placeholder="Email" />
+          <br />
+          <input type="password" class="contacts__input" placeholder="Password" />
+          <br />
+          <textarea class="contacts__textarea" name="contacts-textarea" id="contacts-textarea" cols="30" rows="10" placeholder="Message..."></textarea>
+          <br />
+          <button class="button contacts__button">Contact</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container container_footer d-flex">
+      <div class="left-part">
+        <a href="#" class="logo logo_footer">UniDesign</a>
+        <form class="subscribe-form">
+          <input class="subscribe-form__input" type="email" placeholder="Email">
+          <button class="button button_subscribe">Subscribe</button>
+        </form>
+      </div>
+      <nav class="nav_footer d-flex">
+        <ul class="nav__column">
+          <li class="nav__item nav__item_header"><a class="nav__link" href="#">Platform</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Overview</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+        </ul>
+        <ul class="nav__column">
+          <li class="nav__item nav__item_header"><a class="nav__link" href="#">Help</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">How it works?</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Pay?</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Question?</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Contact?</a></li>
+        </ul>
+        <ul class="nav__column">
+          <li class="nav__item nav__item_header"><a href="#" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="tel:(+000)1234-6789" class="nav__link">(+000) 1234-6789</a></li>
+          <li class="nav__item">116 Archlor Road <br>
+            Broadlaband, <br>
+            NewYork (NYC) <br>
+            1205</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="extra-info d-flex">
+      <div class="rights">
+        CopyRighted 2020-2023 All Rights Reserved.
+      </div>
+      <div class="social d-flex">
+        <a href="#" class="social__item"></a>
+        <a href="#" class="social__item"></a>
+        <a href="#" class="social__item"></a>
+        <a href="#" class="social__item"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
