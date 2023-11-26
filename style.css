@@ -24,14 +24,14 @@
   padding: 0;
 }
 
-body {
+html {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 h2 {
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2rem;
+  line-height: 3rem;
   color: var(--highlight-color);
 }
 
@@ -40,35 +40,35 @@ textarea {
 }
 
 .container {
-  width: 94rem;
+  width: 1500px;
   margin: 0 auto;
-  padding: 3rem 4rem;
+  padding: 50px 65px;
 }
 
 section {
-  margin: 12rem 0;
+  margin: 100px 0;
 }
 
 .container_header {
   justify-content: space-between;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 50px;
 }
 
 .logo {
-  color: #0e0578;
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 3rem;
   font-weight: bold;
-  line-height: 4.5rem;
+  color: #0e0578;
   text-decoration: none;
 }
 
 .main-menu {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   color: #686565;
-  font-size: 2rem;
-  line-height: 3rem;
-  gap: 5rem;
-  margin-right: 3rem;
+  gap: 80px;
+  margin-right: 50px;
 }
 
 .main-menu__item,
@@ -83,7 +83,7 @@ section {
 }
 
 .container_me {
-  gap: 5rem;
+  gap: 80px;
 }
 
 .my-photo {
@@ -91,14 +91,10 @@ section {
   max-height: 564px;
 }
 
-.about {
-  background-color: var(--section-baground-first);
-}
-
 .container_about {
-  width: 92rem;
+  width: 1550px;
   align-items: center;
-  gap: 3rem;
+  gap: 50px;
 }
 
 .about__info {
@@ -106,28 +102,26 @@ section {
 }
 
 .about__text {
-  margin-bottom: 3rem;
-  font-size: 1.5rem;
+  margin-bottom: 50px;
 }
 
 .info__greeting {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   color: var(--highlight-color);
-  font-size: 1.875rem;
-  line-height: 45px;
 }
 
 .info__main {
-  margin: 1.25rem 1.25rem 4rem 0;
-  font-size: 1.5rem;
+  margin: 20px 20px 60px 0;
 }
 
 .button {
-  width: 15.375rem;
-  height: 4.5rem;
+  font-size: 1rem;
+  width: 10.25rem;
+  height: 3rem;
   border: 2px solid var(--highlight-color);
   border-radius: 10px;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
+  line-height: 1.5rem;
   box-shadow: 11px 21px 15px 6px var(--shadow-color);
 }
 
@@ -142,7 +136,7 @@ section {
 
 .button-project {
   color: var(--highlight-color);
-  margin-left: 5rem;
+  margin-left: 80px;
 }
 
 .about__header {
@@ -154,7 +148,7 @@ section {
 }
 
 .container_my-projects {
-  width: 81rem;
+  width: 1300px;
 }
 
 .my-projects__header {
@@ -162,9 +156,9 @@ section {
 }
 
 .projects {
-  margin-top: 3rem;
+  margin-top: 50px;
   display: grid;
-  grid-gap: 2rem 6rem;
+  grid-gap: 30px 100px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
@@ -173,27 +167,35 @@ section {
   background-color: var(--section-baground-first);
 }
 
+.container_contacts {
+  margin: 150px auto;
+}
+
 .contacts__header {
-  font-size: 4rem;
-  line-height: 6rem;
+  font-size: 2.67rem;
+  line-height: 4rem;
   letter-spacing: 0.27em;
+}
+
+.contacts__form {
+  text-align: center;
 }
 
 .contacts__input,
 .contacts__textarea {
+  width: 653px;
+  height: 94px;
   background-color: white;
-  font-size: 2rem;
-  width: 40.8125rem;
-  height: 6rem;
-  line-height: 6rem;
+  font-size: 1.33rem;
+  line-height: 3rem;
   margin-bottom: 2.5rem;
-  border: none;
   padding: 2rem;
+  border: none;
   box-shadow: 13px 21px 4px 0 var(--shadow-color);
 }
 
 .contacts__textarea {
-  height: 16.5625rem;
+  height: 265px;
 }
 
 .contacts__input::placeholder,
@@ -202,6 +204,7 @@ section {
 }
 
 .contacts__button {
+  font-size: 1.33rem;
   background-color: white;
   box-shadow: 13px 21px 4px 0 var(--shadow-color);
   border-radius: 0;
@@ -212,11 +215,7 @@ section {
   background-image: url("images/saly.png");
   background-repeat: no-repeat;
   background-position: 510px -20px;
-  padding: 9rem 0;
-}
-
-.contacts-form {
-  text-align: center;
+  padding: 140px 0;
 }
 
 .container_footer {
@@ -240,9 +239,9 @@ footer {
 }
 
 .nav__item {
-  font-size: 2rem;
-  line-height: 3rem;
-  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  line-height: 1.875rem;
+  margin-bottom: 50px;
 }
 
 .nav__item_header {
@@ -250,18 +249,18 @@ footer {
 }
 
 .subscribe-form {
-  margin-left: -3rem;
-  margin-top: 2rem;
+  margin-left: -50px;
+  margin-top: 30px;
 }
 
 .subscribe-form__input {
-  font-size: 2rem;
+  font-size: 1.3rem;
   background-color: black;
   color: white;
   border: none;
-  border-radius: 2rem;
-  height: 6rem;
-  padding: 2rem;
+  border-radius: 30px;
+  height: 97px;
+  padding: 30px;
 }
 
 .subscribe-form__input::placeholder {
@@ -269,27 +268,28 @@ footer {
 }
 
 .button_subscribe {
-  font-size: 2rem;
-  height: 6rem;
+  font-size: 1.3rem;
+  height: 97px;
   background-color: var(--pink);
   color: white;
   border: none;
-  border-radius: 1.875rem;
-  margin-left: -6rem;
+  border-radius: 30px;
+  margin-left: -100px;
   text-shadow: none;
 }
 
 .extra-info {
-  width: 97rem;
+  width: 1600px;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 50px;
+  margin: 0 auto;
 }
 
 .social__item {
   display: block;
-  width: 4.5rem;
-  height: 4rem;
-  margin-left: 5rem;
+  width: 70px;
+  height: 60px;
+  margin-left: 80px;
   background-color: var(--pink);
 }
