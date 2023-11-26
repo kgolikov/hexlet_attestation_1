@@ -275,7 +275,7 @@ footer {
   border: none;
   border-radius: 30px;
   margin-left: -100px;
-  text-shadow: none;
+  box-shadow: none;
 }
 
 .extra-info {
