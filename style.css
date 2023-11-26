@@ -39,14 +39,19 @@ textarea {
   resize: none;
 }
 
+section {
+  margin: 100px 0;
+}
+
+footer {
+  font-family: 'Jost', sans-serif;
+  background-color: #FFD69633;
+}
+
 .container {
   width: 1500px;
   margin: 0 auto;
   padding: 50px 65px;
-}
-
-section {
-  margin: 100px 0;
 }
 
 .container_header {
@@ -231,11 +236,6 @@ section {
 .nav_footer {
   flex: 1;
   justify-content: space-around;
-}
-
-footer {
-  font-family: 'Jost', sans-serif;
-  background-color: #FFD69633;
 }
 
 .nav__item {
